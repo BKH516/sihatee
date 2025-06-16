@@ -1,11 +1,14 @@
 {
+  "homepage": "https://BKH516.github.io/sihatee",
   "name": "my-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
