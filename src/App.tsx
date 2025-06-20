@@ -11,6 +11,8 @@ function App() {
         </Button>
         <h1 className="text-3xl font-bold text-gray-800 mb-4">Tailwind CSS is Working!</h1>
         <p className="text-gray-600">If you see this styled box, Tailwind is set up correctly 🎉</p>
+        <h5 className='text-red-600 bg-slate-300'>no</h5>
+        <dialog/>
       </div>
     </div>
   );
